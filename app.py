@@ -14,6 +14,7 @@ def start_httpd(port: int):
     httpd = HTTPServer(server_address, Handler)
     httpd.serve_forever()
 
+
 if __name__=='__main__':
     parser = argparse.ArgumentParser(
         prog='multiport app',
