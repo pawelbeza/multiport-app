@@ -1,0 +1,3 @@
+[submodule "firecracker-containerd"]
+	path = firecracker-containerd
+	url = https://github.com/firecracker-microvm/firecracker-containerd.git
